@@ -14,5 +14,4 @@ class HelloUser(View):
         context = {
             'name': 'john.diago',
             'email': 'johndiago7@gmail.com'
-        }
         return render(request, self.template_name, context)
